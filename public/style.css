@@ -1,0 +1,61 @@
+/* style.css */
+
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #007BFF;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Home Page */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Post Page */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Back to Home Link */
+a {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
